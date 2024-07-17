@@ -1,3 +1,7 @@
+import os
+import sys
+fpath = os.path.join(os.path.dirname(__file__), 'src')
+sys.path.append(fpath)
 from masks import get_mask_card_number, get_mask_account
 
 
@@ -41,7 +45,7 @@ def mask_account_cart(type_and_number_cart: str) -> str:
     ready_data = ""
     for values_cart in new_list:
         translate_into_a_line = " ".join(values_cart)
-        ready_data += (translate_into_a_line + "\n")
+        ready_data += translate_into_a_line + "\n"
     return ready_data
 
 
