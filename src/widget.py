@@ -1,8 +1,5 @@
-import os
-import sys
-fpath = os.path.join(os.path.dirname(__file__), 'src')
-sys.path.append(fpath)
-from masks import get_mask_card_number, get_mask_account
+from src.masks import get_mask_card_number, get_mask_account
+
 
 
 # Примеры входных данных:
