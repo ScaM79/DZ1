@@ -87,7 +87,29 @@ line_length = 119
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 ```
+## Тесты:
+В папку tests добавлены тесты:
+[test_masks.py](tests%2Ftest_masks.py)
+[test_processing.py](tests%2Ftest_processing.py)
+[test_widget.py](tests%2Ftest_widget.py)
+для тестирования функций, а так же файл [conftest.py](tests%2Fconftest.py)
+который содержит фикстуры.
 
+### Покрытие тестами:
+
+File	function	statements	missing	excluded	coverage
+src\__init__.py	(no function)	0	0	0	100%
+src\masks.py	get_mask_card_number	3	0	0	100%
+src\masks.py	get_mask_account	3	0	0	100%
+src\masks.py	(no function)	2	0	0	100%
+src\processing.py	filter_by_state	5	0	0	100%
+src\processing.py	sort_by_date	1	0	0	100%
+src\processing.py	(no function)	2	0	0	100%
+src\widget.py	mask_account_cart	24	5	0	79%
+src\widget.py	get_data	6	0	0	100%
+src\widget.py	(no function)	7	2	0	71%
+**Total	 	53	7	0	87%**
+coverage.py v7.6.0, created at 2024-07-31 00:09 +0700
 
 ## Документация:
 Дополнительную информацию о условиях и способах сдачи можно посмотреть на сайте [https://my.sky.pro](https://my.sky.pro/student-cabinet/stream-lesson/131743/homework-requirements).
