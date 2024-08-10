@@ -90,8 +90,11 @@ build-backend = "poetry.core.masonry.api"
 ## Тесты:
 В папку tests добавлены тесты:
 [test_masks.py](tests%2Ftest_masks.py)
+
 [test_processing.py](tests%2Ftest_processing.py)
+
 [test_widget.py](tests%2Ftest_widget.py)
+
 для тестирования функций, а так же файл [conftest.py](tests%2Fconftest.py)
 который содержит фикстуры.
 
@@ -102,6 +105,8 @@ build-backend = "poetry.core.masonry.api"
 
 ### Покрытие тестами:
 
+'''
+feature/homework_11.1
 coverage.py v7.6.0, created at 2024-08-06 21:48 +0700
 
 File	            coverage
@@ -119,6 +124,7 @@ src\widget.py	    81%
 **Total	68	7	0	90%**
 
 coverage.py v7.6.0, created at 2024-08-06 21:48 +0700
+'''
 
 ## Документация:
 Дополнительную информацию о условиях и способах сдачи можно посмотреть на сайте [https://my.sky.pro](https://my.sky.pro/student-cabinet/stream-lesson/131743/homework-requirements).
