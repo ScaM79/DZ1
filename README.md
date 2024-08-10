@@ -93,8 +93,11 @@ build-backend = "poetry.core.masonry.api"
 ## Тесты:
 В папку tests добавлены тесты:
 [test_masks.py](tests%2Ftest_masks.py)
+
 [test_processing.py](tests%2Ftest_processing.py)
+
 [test_widget.py](tests%2Ftest_widget.py)
+
 для тестирования функций, а так же файл [conftest.py](tests%2Fconftest.py)
 который содержит фикстуры.
 
@@ -103,9 +106,9 @@ build-backend = "poetry.core.masonry.api"
 Сортировка по коду валюты транзакции
 Вывод информации о транзакции
 
+feature/homework_11.2
 ### Домашнее задание 11.2
 Добавлены тесты декорации log:
-
 
 ### Покрытие тестами:
 
@@ -113,6 +116,7 @@ build-backend = "poetry.core.masonry.api"
 Попытался выставить скрин pytest cov html
 
 Итоговое покрытие тестами 87%
+
 
 ## Документация:
 Дополнительную информацию о условиях и способах сдачи можно посмотреть на сайте [https://my.sky.pro](https://my.sky.pro/student-cabinet/stream-lesson/131743/homework-requirements).
