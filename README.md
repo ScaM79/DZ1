@@ -109,11 +109,28 @@ build-backend = "poetry.core.masonry.api"
 
 ### Покрытие тестами:
 
-![alt tag](C:\Users\scam7\OneDrive\Изображения\Снимки экрана\cov_test.jpg)
-Попытался выставить скрин pytest cov html
 
-Итоговое покрытие тестами 87%
-
+````
+---------- coverage: platform win32, python 3.12.4-final-0 -----------
+Name                       Stmts   Miss  Cover
+----------------------------------------------
+src\__init__.py                0      0   100%
+src\decorators.py             24      7    71%
+src\generators.py             15      0   100%
+src\masks.py                   8      0   100%
+src\processing.py              8      0   100%
+src\widget.py                 37      7    81%
+tests\__init__.py              0      0   100%
+tests\conftest.py             10      1    90%
+tests\test_decorators.py      16      6    62%
+tests\test_generators.py      34      0   100%
+tests\test_masks.py            8      0   100%
+tests\test_processing.py       9      0   100%
+tests\test_widget.py          10      0   100%
+----------------------------------------------
+TOTAL                        179     21    88%
+````
+Наконец то понял как заставить его слушать форматирование :)
 ## Документация:
 Дополнительную информацию о условиях и способах сдачи можно посмотреть на сайте [https://my.sky.pro](https://my.sky.pro/student-cabinet/stream-lesson/131743/homework-requirements).
 
